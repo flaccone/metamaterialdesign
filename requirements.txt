@@ -1,0 +1,9 @@
+numpy<2.0
+pyvista[jupyter]
+beef-knutankv @ git+https://www.github.com/knutankv/beef.git@master
+ipython
+pyclipr @ git+https://github.com/alemuntoni/pyclipr.git@main
+triangle @ git+https://github.com/drufat/triangle.git@master
+libigl
+pymeshlab
+nlopt
