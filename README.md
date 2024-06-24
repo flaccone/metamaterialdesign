@@ -48,15 +48,15 @@ The ```options``` dictionary (line 10 in ```./src/main.py```) allows the user to
 
 In particular:
 
-```'pattern preview': True``` pyvista 3D preview of the pattern with vetices and edges indices.
+```'pattern preview'``` if True shows a pyvista 3D preview of the pattern with vetices and edges indices.
 
 ```'load simulations``` > 0, performs for a given max force the input number of bending scenarios.
 
 ```'design parameter sensitivity'``` constructs a 3D design domain showing displacement vs design parameter vs load.
 
-```'optimization scenario': True``` performs the optimization task of finding the best parameter value so tha the deformed shape of the tassellated strip is close to a target one.
+```'optimization scenario'``` if True performs the optimization task of finding the best parameter value so tha the deformed shape of the tassellated strip is close to a target one.
 
-```'save file for 3D print': True``` outputs a solid mesh.
+```'save file for 3D print'``` if True outputs a solid mesh.
 
 ```opt_init_parameters``` np.array containing the (five) initialization values of the optimization variables, i.e., one design parameter per pattern (hexagon)
 
