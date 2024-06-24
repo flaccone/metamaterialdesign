@@ -31,8 +31,11 @@ pip install -r requirements.txt
 
 # Task  
 The participant is required to conceive a parametric pattern, embedded in a regular hexagon. The pattern will be employed in a tassellated strip made of 5 hexagons that are bent out of plane from the extremities.
+
 The task consists in creating a new pattern class in ```./src/patterns.py``` using the ```Pattern(Protocol)```.
+
 Such class is required to expose a design parameter, that will be later used as optimization variable, see for instance ```MyPattern(Pattern)``` in ```./src/patterns.py```.
+
 
 # Code usage
 
