@@ -36,11 +36,25 @@ The task consists in creating a new pattern class in ```./src/patterns.py``` usi
 
 Such class is required to expose a design parameter, that will be later used as optimization variable, see for instance ```MyPattern(Pattern)``` in ```./src/patterns.py```.
 
+It is mandatory to ... vert ids and BC
+
 
 # Code usage
 If the code is run as is, the result will show the bending scenario that optimizes ```MyPattern()``` to achieve the end goal of the project, i.e. a target bending deformation.
 
-In ```./src/main.py```, the participant replaces ```MyPattern``` (line 9, 41 and 58) with his/her own pattern class.
+In ```./src/main.py```, the participant is asked to replace ```MyPattern``` (line 9, 41 and 58) with his/her own pattern class.
 
-The
+The ```options``` dictionary (line 10 in ```./src/main.py```) allows the user to test his/her design before performing the optimization task.
+
+In particular:
+
+```'pattern preview': True``` 
+
+```'load simulations``` > 0 
+
+```'design parameter sensitivity'```
+
+```'optimization scenario': True```
+
+```'save file for 3D print': True```
 
