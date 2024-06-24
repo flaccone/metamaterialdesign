@@ -1,4 +1,4 @@
-# metamaterialdesign
+# Metamaterial Design and Optimization
 Activity for the SIGCHI Summer School
 
 # Installation
