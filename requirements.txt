@@ -2,7 +2,10 @@ numpy<2.0
 pyvista[jupyter]
 beef-knutankv @ git+https://www.github.com/knutankv/beef.git@master
 ipython
-pyclipr @ git+https://github.com/alemuntoni/pyclipr.git@main
+# pyclipr from github only on mac m1
+pyclipr @ git+https://github.com/alemuntoni/pyclipr.git@main; sys_platform == "darwin" and platform_machine == "arm64"
+# pyclipr from pypi on other platforms
+pyclipr; sys_platform != "darwin" or platform_machine != "arm64"
 triangle @ git+https://github.com/drufat/triangle.git@master
 libigl
 pymeshlab
