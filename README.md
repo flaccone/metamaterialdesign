@@ -11,14 +11,15 @@ git clone https://github.com/flaccone/metamaterialdesign
 
 Move to the repository root directory. Make sure you have Python installed.
 
-If you use Ubuntu (```sudo apt install build-essential```) or macOS (XCode from the App Store) make sure you have a C++ compiler installed.
+Make sure you have a C++ compiler installed if you use Ubuntu (```sudo apt install build-essential```) or macOS (XCode from the App Store).
 
 If you use macOS with ARM, as a first step, install ```pymeshlab``` and ```nlopt``` requiring a wheel:
 ~~~
-pip install ./m1_wheels/...
+pip install ./m1_wheels/pymeshlab/pymeshlab-2023.12-<YOUR PYTHON VERSION>.whl
+pip install ./m1_wheels/nlopt/nlopt-2.7.1-<YOUR PYHTON VERSION>.whl
 ~~~
 
-Then install all other dependencies:
+Then, install all other dependencies:
 ~~~
 pip install -r requirements.txt
 ~~~
