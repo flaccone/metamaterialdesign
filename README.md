@@ -9,7 +9,9 @@ Change the current working directory to the location of your repositories.
 git clone https://github.com/flaccone/metamaterialdesign
 ~~~
 
-Move to the repository root directory. You can set up a Pyhon virtual environment. The code runs on Python 3.12.....
+Move to the repository root directory. Make sure you have Python installed.
+
+If you use Ubuntu (```sudo apt install build-essential```) or macOS (XCode from the App Store) make sure you have a C++ compiler installed.
 
 If you use macOS with ARM, as a first step, install ```pymeshlab``` and ```nlopt``` requiring a wheel:
 ~~~
@@ -20,8 +22,6 @@ Then install all other dependencies:
 ~~~
 pip install -r requirements.txt
 ~~~
-
-If you use Win make sure you have a C++ compiler installed.
 
 If you use Ubuntu or Win, install all dependencies with:
 ~~~
