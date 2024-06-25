@@ -30,13 +30,16 @@ pip install -r requirements.txt
 
 
 # Task  
-The participant is required to conceive a parametric pattern, embedded in a regular hexagon. The pattern will be employed in a tassellated strip made of 5 hexagons that are bent out of plane from the extremities as a metamaterial strip.
+The participant is required to conceive a parametric pattern that is embedded in a regular hexagon. The pattern will be employed in a tassellated strip made of 5 hexagons that are bent out of plane from the extremities as a metamaterial strip.
 
 The task consists in creating a new pattern class in ```./src/patterns.py``` using the ```Pattern(Protocol)```.
 
-Such class is required to expose a design parameter, that will be later used as optimization variable, see for instance ```MyPattern(Pattern)``` in ```./src/patterns.py```.
+Such class is required to expose a design parameter, which will be later used as optimization variable, see for instance ```MyPattern(Pattern)``` in ```./src/patterns.py```.
 
-It is mandatory to ... vert ids and BC
+The pattern class outputs the vertex matrix, the edge matrix and the ```boundary_vertices```, i.e., a np.array of indices for the vertices that are on the edges of the hexagon.
+It is mandatory for tileability that the boundary vertices are on the hexagon edge midpoint, and that the these boundary indices are ordered as in this figure.
+
+![image](./images/boundary.png)
 
 
 # Code usage
