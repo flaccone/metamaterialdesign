@@ -24,7 +24,7 @@ Then, install all other dependencies:
 pip install -r requirements.txt
 ~~~
 
-If you use Ubuntu or Win, install all dependencies with:
+If you use Ubuntu, Win or macOS with Intel, install all dependencies with:
 ~~~
 pip install -r requirements.txt
 ~~~
