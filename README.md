@@ -11,7 +11,7 @@ git clone https://github.com/flaccone/metamaterialdesign
 
 Move to the repository root directory. Make sure you have Python installed.
 
-Make sure you have a C++ compiler installed if you use Ubuntu (```sudo apt install build-essential```) or macOS (XCode from the App Store).
+Make sure you have a C++ compiler installed if you use Ubuntu (```sudo apt install build-essential```) or macOS (XCode from the App Store). Make sure you have Cmake installed on macOS.
 
 If you use macOS with ARM, as a first step, install ```pymeshlab``` and ```nlopt``` requiring a wheel:
 ~~~
